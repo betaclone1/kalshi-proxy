@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 API_KEY = 'f513bc50-8660-44f5-9458-ac6b4c3773d6'
-BASE_URL = 'https://trading-api.kalshi.com/trade-api/v2'
+BASE_URL = 'https://api.kalshi.com/trade-api/v2'
 MARKET_TICKER = 'BTC-YES-T05:00'  # Update this hourly if needed
 
 @app.route("/btc-price", methods=["GET"])
